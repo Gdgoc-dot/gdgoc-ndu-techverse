@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Five fun tech questions. Discover your tech identity. Win a voucher. Meet GDGoC NDU.">
+  <title>Techverse — GDGoC NDU</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="questions.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grid-texture" aria-hidden="true"></div>
+
+  <div class="site-shell">
+    <header class="topbar">
+      <button class="brand" type="button" data-go-home aria-label="Go to Techverse home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" role="img">
+            <path d="M20 4.5 31.8 11.2 31.8 24.8 20 31.5 8.2 24.8 8.2 11.2Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M20 11.2 27 15.2 27 23.2 20 27.2 13 23.2 13 15.2Z" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".58"/>
+            <circle cx="20" cy="19.2" r="3.1" fill="currentColor"/>
+            <path d="M20 1.7v4M34.8 10l3.2-1.8M34.8 28.7l3.1 1.8M5.3 28.7l-3.1 1.8M5.2 10 2 8.2" stroke="#72e8fa" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>GDGoC <span>NDU</span></strong>
+          <small>TECHVERSE EXPERIENCE</small>
+        </span>
+      </button>
+
+      <div class="topbar-right">
+        <span class="campus-pill"><span class="live-dot"></span> ON CAMPUS</span>
+        <button class="icon-button home-shortcut" type="button" data-go-home aria-label="Return to home" title="Home">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3.5 10.5 8.5-7 8.5 7M5.5 9.3v10.2h5.1v-6h2.8v6h5.1V9.3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- HOME -->
+      <section class="screen home-screen is-active" id="screen-home" aria-labelledby="hero-title">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span> YOUR CAMPUS, YOUR NEXT BIG THING</div>
+            <h1 id="hero-title">THINK YOU<br>KNOW <span class="gradient-word">TECH?</span></h1>
+            <p class="hero-description">Five fun questions. A tech identity that feels like you. And yes — <strong>you could win a voucher.</strong></p>
+            <div class="hero-actions">
+              <button class="button button-primary button-large" id="start-experience" type="button">
+                START THE EXPERIENCE <span aria-hidden="true">↗</span>
+              </button>
+              <button class="button button-secondary reopen-voucher" id="reopen-voucher" type="button" hidden>
+                REOPEN MY VOUCHER <span aria-hidden="true">↗</span>
+              </button>
+              <span class="time-note"><span class="clock-icon" aria-hidden="true">◷</span> ABOUT 60–90 SECONDS</span>
+            </div>
+            <div class="hero-trust-row">
+              <span><span class="mini-check">✓</span> No sign-up</span>
+              <span><span class="mini-check">✓</span> Beginners welcome</span>
+              <span><span class="mini-check">✓</span> Just have fun</span>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Preview of your Techverse result" role="img">
+            <div class="orbit orbit-large"></div>
+            <div class="orbit orbit-small"></div>
+            <div class="orbit-node node-blue"></div>
+            <div class="orbit-node node-purple"></div>
+            <div class="orbit-node node-green"></div>
+            <div class="art-glow"></div>
+            <div class="identity-preview">
+              <div class="preview-top"><span class="preview-label">YOUR TECH IDENTITY</span><span class="preview-live"><i></i> READY</span></div>
+              <div class="preview-emblem">
+                <svg viewBox="0 0 120 120" aria-hidden="true">
+                  <defs><linearGradient id="emblemGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7de8fb"/><stop offset=".55" stop-color="#8a7dff"/><stop offset="1" stop-color="#c1a4ff"/></linearGradient></defs>
+                  <path d="M60 8 91 26v36L60 80 29 62V26Z" fill="none" stroke="url(#emblemGradient)" stroke-width="2"/>
+                  <path d="M60 23 78 33v21L60 64 42 54V33Z" fill="rgba(105,157,255,.10)" stroke="url(#emblemGradient)" stroke-width="2"/>
+                  <circle cx="60" cy="43.5" r="8" fill="url(#emblemGradient)"/>
+                  <path d="m38 80 22 13 22-13M60 80v13M22 35h13M85 35h13M60 6V1" fill="none" stroke="#74e5f3" stroke-width="2" stroke-linecap="round"/>
+                  <circle cx="60" cy="102" r="3" fill="#8c82ff"/>
+                  <path d="M48 108h24" stroke="#8c82ff" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <p class="preview-micro">IDENTITY GENERATOR <span>v.01</span></p>
+              <div class="preview-title">THE NEXT<br><span>INNOVATOR</span></div>
+              <div class="preview-bottom"><span>CURIOUS BY DESIGN</span><span class="preview-stars">✳ ✳ ✳</span></div>
+            </div>
+            <div class="floating-chip chip-ai"><span>✳</span> AI curious</div>
+            <div class="floating-chip chip-code"><span>&lt;/&gt;</span> Code energy</div>
+            <div class="floating-reward"><span class="reward-emoji">✦</span><span><strong>A REWARD COULD BE YOURS</strong><small>2 of 5 correct unlocks a voucher</small></span><span class="reward-lock">↗</span></div>
+            <div class="art-caption"><span class="caption-dot"></span> BUILT FOR CURIOUS MINDS</div>
+          </div>
+        </div>
+
+        <div class="value-strip">
+          <div class="value-item"><span class="value-number">05</span><span><strong>Quick questions</strong><small>Zero boring exam energy</small></span></div>
+          <div class="value-divider"></div>
+          <div class="value-item"><span class="value-symbol">✧</span><span><strong>Your tech identity</strong><small>Find your kind of curious</small></span></div>
+          <div class="value-divider"></div>
+          <div class="value-item"><span class="value-symbol gift-symbol">♧</span><span><strong>Vouchers up for grabs</strong><small>Get 2 out of 5 to win</small></span></div>
+        </div>
+
+        <section class="instagram-panel" aria-labelledby="instagram-home-title">
+          <div class="insta-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3.1" y="3.1" width="17.8" height="17.8" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.7" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          </div>
+          <div class="instagram-copy">
+            <div class="section-kicker">THE PEOPLE BEHIND THE TECH</div>
+            <h2 id="instagram-home-title">YOUR NEXT TECH COMMUNITY <span>STARTS HERE.</span></h2>
+            <p>Workshops, AI discoveries, coding challenges, and people who love building things. Come find your crew.</p>
+          </div>
+          <a class="button button-instagram" href="https://www.instagram.com/gdgoncampus_ndu.nlc?dlrf=ejlyM3B3cWZxbDY2" target="_blank" rel="noopener noreferrer">
+            EXPLORE OUR INSTAGRAM <span aria-hidden="true">↗</span>
+          </a>
+          <div class="panel-spark" aria-hidden="true">✳</div>
+        </section>
+      </section>
+
+      <!-- DIFFICULTY -->
+      <section class="screen" id="screen-difficulty" aria-labelledby="difficulty-title" hidden>
+        <div class="screen-heading">
+          <div class="eyebrow"><span class="eyebrow-line"></span> STEP 01 / CHOOSE YOUR VIBE</div>
+          <h1 id="difficulty-title" tabindex="-1">PICK YOUR<br><span class="gradient-word">LEVEL.</span></h1>
+          <p>There is no wrong door. Choose what sounds fun — every level can unlock a voucher.</p>
+        </div>
+        <div class="level-grid" role="group" aria-label="Choose your quiz level">
+          <button class="level-card" type="button" data-level="explorer" aria-pressed="false">
+            <span class="level-card-head"><span class="level-icon icon-explorer">✧</span><span class="level-index">LVL 01</span></span>
+            <span class="level-title">TECH EXPLORER</span>
+            <span class="level-description">Just curious about tech? Perfect. Let's explore.</span>
+            <span class="level-tags"><i>Beginner-friendly</i><i>Good vibes</i></span>
+            <span class="level-select">CHOOSE THIS <b>↗</b></span>
+          </button>
+          <button class="level-card" type="button" data-level="enthusiast" aria-pressed="false">
+            <span class="level-card-head"><span class="level-icon icon-enthusiast">&lt;/&gt;</span><span class="level-index">LVL 02</span></span>
+            <span class="level-title">CODE ENTHUSIAST</span>
+            <span class="level-description">You know a little tech. Let's see what you discover.</span>
+            <span class="level-tags"><i>Some experience</i><i>Think it through</i></span>
+            <span class="level-select">CHOOSE THIS <b>↗</b></span>
+          </button>
+          <button class="level-card" type="button" data-level="geek" aria-pressed="false">
+            <span class="level-card-head"><span class="level-icon icon-geek">⌘</span><span class="level-index">LVL 03</span></span>
+            <span class="level-title">TECH GEEK</span>
+            <span class="level-description">You enjoy programming, AI, and technical brain-teasers.</span>
+            <span class="level-tags"><i>For the curious</i><i>Still for fun</i></span>
+            <span class="level-select">CHOOSE THIS <b>↗</b></span>
+          </button>
+        </div>
+        <div class="difficulty-footer">
+          <button class="text-button" type="button" data-go-home>← Back to home</button>
+          <div class="difficulty-note"><span class="mini-check">✓</span> 5 questions · 2 correct answers unlock a voucher</div>
+          <button class="button button-primary" id="begin-quiz" type="button" disabled>LET'S PLAY <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <!-- QUIZ -->
+      <section class="screen quiz-screen" id="screen-quiz" aria-labelledby="question-title" hidden>
+        <div class="quiz-topline">
+          <div class="eyebrow"><span class="eyebrow-line"></span> TECHVERSE CHALLENGE</div>
+          <span class="quiz-level-pill" id="quiz-level-label">TECH EXPLORER</span>
+        </div>
+        <div class="progress-header">
+          <span class="progress-counter" id="question-counter">QUESTION 1 <span>OF 5</span></span>
+          <span class="progress-score"><span class="score-spark">✦</span> <strong id="running-score">0</strong> correct</span>
+        </div>
+        <div class="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0" id="progress-track"><span id="progress-fill"></span></div>
+        <article class="question-card">
+          <div class="question-meta"><span class="question-category" id="question-category">AI FACTS</span><span class="question-id" id="question-number">Q / 01</span></div>
+          <h1 id="question-title" tabindex="-1">Loading your first question…</h1>
+          <pre class="code-snippet" id="question-snippet" hidden><code></code></pre>
+          <div class="answer-list" id="answer-list" role="group" aria-label="Answer options"></div>
+          <div class="feedback-box" id="answer-feedback" aria-live="polite" hidden></div>
+          <div class="question-controls">
+            <span class="choose-hint" id="choose-hint">PICK THE ANSWER THAT FEELS RIGHT</span>
+            <button class="button button-primary" id="submit-answer" type="button" disabled>LOCK IN ANSWER <span aria-hidden="true">↗</span></button>
+            <button class="button button-primary" id="continue-answer" type="button" hidden>CONTINUE <span aria-hidden="true">→</span></button>
+          </div>
+        </article>
+        <p class="quiz-reassurance"><span aria-hidden="true">✳</span> It's a game, not an exam. Learn something cool and keep going.</p>
+      </section>
+
+      <!-- RESULTS -->
+      <section class="screen results-screen" id="screen-results" aria-labelledby="results-title" hidden>
+        <div class="results-topline">
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR TECHVERSE RECAP</div>
+          <button class="text-button small-text-button" id="change-level" type="button">Try another level ↗</button>
+        </div>
+        <div class="results-hero" id="results-hero">
+          <div class="results-main">
+            <div class="result-status" id="result-status"><span class="status-pip"></span> ROUND COMPLETE</div>
+            <h1 id="results-title">THAT'S A<br><span class="gradient-word">WRAP.</span></h1>
+            <p id="results-message" class="results-message">Every tech journey starts with curiosity.</p>
+            <div class="score-display">
+              <span class="score-big" id="final-score">0<span>/5</span></span>
+              <span class="score-caption"><strong id="score-percent">0%</strong><small>YOUR SCORE</small></span>
+            </div>
+            <div class="score-meter"><span id="score-meter-fill"></span></div>
+          </div>
+          <div class="identity-result-card" id="identity-result-card">
+            <div class="identity-card-top"><span>YOUR TECH IDENTITY</span><span class="identity-serial">TV / 001</span></div>
+            <div class="identity-icon" id="identity-icon" aria-hidden="true">✧</div>
+            <div class="identity-type" id="identity-type">THE TECH EXPLORER</div>
+            <p id="identity-description">Curiosity is your superpower.</p>
+            <div class="identity-card-footer"><span>GDGoC NDU</span><span>MADE OF CURIOSITY ✳</span></div>
+          </div>
+        </div>
+
+        <section class="voucher-panel" id="voucher-panel" aria-labelledby="voucher-title" hidden>
+          <div class="voucher-confetti" aria-hidden="true"></div>
+          <div class="voucher-copy">
+            <span class="reward-label"><span>✦</span> REWARD UNLOCKED</span>
+            <h2 id="voucher-title">YOU DID IT. <span>YOU WON!</span></h2>
+            <p>You've unlocked a voucher! Show this screen to the GDGoC NDU team at our recruitment table to claim your prize.</p>
+          </div>
+          <div class="voucher-ticket">
+            <div class="ticket-top"><span>GDGoC NDU</span><span>RECRUITMENT DAY</span></div>
+            <div class="ticket-gift" aria-hidden="true">✦</div>
+            <strong>VOUCHER UNLOCKED</strong>
+            <span class="ticket-ref-label">YOUR CLAIM REFERENCE</span>
+            <code id="voucher-reference">GDG-XXXXX</code>
+            <span class="ticket-foot">SHOW THIS SCREEN AT OUR TABLE</span>
+          </div>
+          <p class="voucher-note">Your reference is a visual claim identifier, not a one-time secure code. Our team will help you claim your prize in person.</p>
+        </section>
+
+        <section class="no-voucher-panel" id="no-voucher-panel" hidden aria-labelledby="no-voucher-title">
+          <div class="no-voucher-icon" aria-hidden="true">✧</div>
+          <div><span class="section-kicker">KEEP YOUR CURIOSITY ON</span><h2 id="no-voucher-title">EVERY TECH LEGEND<br>STARTS SOMEWHERE.</h2><p>No voucher this round? No worries. Your next idea could be your best one yet — and there's plenty more to discover with GDGoC NDU.</p></div>
+        </section>
+
+        <section class="answer-review-section" aria-labelledby="review-title">
+          <div class="review-heading">
+            <div><div class="section-kicker">QUICK RECAP</div><h2 id="review-title">WHAT YOU <span>PICKED UP.</span></h2></div>
+            <span class="review-count" id="review-count">5 QUESTIONS</span>
+          </div>
+          <div class="review-list" id="review-list"></div>
+        </section>
+
+        <section class="instagram-result-panel" aria-labelledby="instagram-result-title">
+          <div class="insta-result-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3.1" y="3.1" width="17.8" height="17.8" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.7" cy="6.5" r="1.2" fill="currentColor"/></svg>
+          </div>
+          <div class="instagram-result-copy">
+            <div class="section-kicker">YOUR NEXT CHAPTER</div>
+            <h2 id="instagram-result-title">THE CHALLENGE ENDS.<br><span>YOUR TECH JOURNEY DOESN'T.</span></h2>
+            <p>Follow GDGoC NDU for workshops, AI discoveries, coding challenges, and opportunities to meet fellow tech enthusiasts.</p>
+          </div>
+          <a class="button button-instagram button-instagram-result" href="https://www.instagram.com/gdgoncampus_ndu.nlc?dlrf=ejlyM3B3cWZxbDY2" target="_blank" rel="noopener noreferrer">
+            FOLLOW GDGoC NDU <span aria-hidden="true">↗</span>
+          </a>
+          <p class="follow-note" id="follow-note">Following is optional — your result and voucher are yours either way.</p>
+        </section>
+
+        <div class="result-actions">
+          <button class="button button-secondary" id="share-result" type="button"><span aria-hidden="true">↗</span> SHARE MY RESULT</button>
+          <button class="button button-secondary" id="download-result" type="button"><span aria-hidden="true">↓</span> DOWNLOAD SCORECARD</button>
+          <button class="button button-primary" id="play-again" type="button">PLAY AGAIN <span aria-hidden="true">⟳</span></button>
+        </div>
+        <p id="share-feedback" class="share-feedback" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><span class="footer-mark">✳</span><span>GDGoC NDU <small>TECHVERSE</small></span></div>
+      <p>Built for curious minds at NDU.</p>
+      <span class="footer-disclaimer">Independent club recruitment experience · Not an official Google product</span>
+    </footer>
+  </div>
+
+  <noscript><div class="noscript-message">Techverse needs JavaScript to run. Please enable JavaScript in your browser and try again.</div></noscript>
+</body>
+</html>
